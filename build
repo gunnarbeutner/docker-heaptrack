@@ -1,0 +1,3 @@
+#!/bin/sh
+docker build -t gbeutner/heaptrack . && \
+docker push gbeutner/heaptrack
